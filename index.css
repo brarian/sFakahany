@@ -1,26 +1,23 @@
-
-h1{
-  margin-top: 1.5em; 
+h1 {
+  margin-top: 1.5em;
   text-align: center;
 }
-main{
+main {
   text-align: center;
 }
-.nav_button{
+.nav_button {
   border: 1px solid black;
-  width: 75%; 
+  width: 75%;
   height: 2em;
-  margin: .5em;
-
+  margin: 0.5em;
 }
-
 
 .arrow_down {
-	width: 0; 
-	height: 0; 
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 10px solid #2f2f2f;
-	font-size: 0;
-	line-height: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #2f2f2f;
+  font-size: 0;
+  line-height: 0;
 }
