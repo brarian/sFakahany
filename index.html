@@ -15,11 +15,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <h1>Samantah Fakahanys</h1>
+  <body class="container">
+    <h1>Samantah Fakahany</h1>
     <hr />
-    <div class="arrow_down"></div>
-    <!-- side bar nav -->
+
+    <!-- SIDE BAR NAV START -->
+    <!-- <span onClick="openNav()"> open </span>
+    <nav class="side_nav_bar side_nav">
+      <a href="javascript:void(0)"  class="close_button" onClick="closeNav()"> $times;</a>
+      <h5>Menu</h5>
+      <ul class="nav_list">
+        <li><a href="#"> my work</a></li>
+        <li><a href="#"> contact me</a></li>
+        <li><a href="#"> resume</a></li>
+      </ul>
+    </nav>
+ -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">See My Work</a>
+        <a href="#">Contact Me</a>
+        <a href="#">Resume</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()">open</span>
+    <!-- SIDE BAR NAV END -->
+
     <main>
       <button class="nav_button">see my work</button>
       <button class="nav_button">contact me</button>
