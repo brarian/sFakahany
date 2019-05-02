@@ -9,7 +9,7 @@
 // }
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "175px";
   document.getElementsByClassName("container")[0].style.marginLeft="40px";
  
 }
@@ -17,5 +17,5 @@ function openNav() {
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementsByClassName("container")[0].style.marginLeft="0";
+  document.getElementsByClassName("container")[0].style.marginLeft="1em";
 }
