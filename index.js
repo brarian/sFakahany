@@ -8,5 +8,5 @@ function openNav() {
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementsByClassName("container")[0].style.marginLeft="1em";
+  document.getElementsByClassName("container")[0].style.marginLeft="0";
 }
