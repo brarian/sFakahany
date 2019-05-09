@@ -1,39 +1,57 @@
 html {
   box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+  
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+
 
 /* body{
   margin: 1em;
   margin-left: 1em;
 } */
+.top {
+  display: flex;
+  align-items: center;
 
-.menu_image {
-  height: 2em;
-  width: 3em;
 }
+.menu_image {
+  height: 1.5em;
+  width: 2.5em;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.color{
+  background-color: #f8ebe3;}
 h1 {
-  margin-top: 1em;
   text-align: center;
   font-size: 3em;
-  padding: 1em;
-  background-color: #fffaf4;
   justify-content: center;
+  line-height: 1em;
+  font-weight: bolder;
 }
 
+.title_name {
+  margin-top: 7em;
+}
 main {
   display: flex;
   justify-content: center;
 }
 a.nav_button {
+  background-color: white;
   border: 1px solid black;
   text-align: center;
   width: 8em;
   height: 3em;
   margin: 0.5em;
-  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 a,
 a.link,
@@ -52,7 +70,7 @@ a:active {
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color:#f9f8f6; /* Black*/
+  background-color: #f9f8f6; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -62,16 +80,13 @@ a:active {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 1em;
-  color: #818181;
+  font-size: 1.2em;
+  color: black;
   display: block;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
@@ -82,7 +97,7 @@ a:active {
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-.container{
+.container {
   margin: 1em;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -95,26 +110,25 @@ a:active {
   }
 }
 @media only screen and (max-width: 414px) {
-
-  html, body {
-    overflow-x: hidden;
-  }
-  body {
+  .color{
+    background-color: #f8ebe3;
   }
   .menu_image {
     height: 1.2em;
     width: 1.5em;
   }
-  h1{
-    font-size: 2em;
+  h1 {
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: bolder;
   }
   a.nav_button {
     border: 1px solid black;
-    padding: .3em;
+    padding: 0.3em;
     text-align: center;
     width: 7em;
     height: 3.5em;
     margin: 0.5em;
     font-size: 12px;
-    }
+  }
 }

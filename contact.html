@@ -13,19 +13,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="contact.css" />
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
     <!-- NODEMAILER tutorial  -->
     <!-- https://tylerkrys.ca/blog/adding-nodemailer-email-contact-form-node-express-app -->
   </head>
   <body class="container">
-       <!-- NAV ICON START-->
+    <!-- NAV ICON START-->
 
-       <span onclick="openNav()">
-          <img class="menu_image" src="menu.png" />
-        </span>
-        <!-- NAV ICON END-->
-
-      <h1>Samantah Fakahany</h1>
-  
+    <span onclick="openNav()">
+      <img class="menu_image" src="menu.png" />
+    </span>
+    <!-- NAV ICON END-->
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
@@ -42,10 +40,11 @@
       <a href="mock_resume.pdf">Resume</a>
     </div>
 
-    <!-- Use any element to open the sidenav -->
-
     <!-- NAV BAR END -->
-    <form action="/contact" class="contact_form ">
+
+    <!-- FORM START -->
+
+    <form action="/contact" class="contact_form">
       <fieldset>
         <div>
           <label for="name"> Name </label>
@@ -84,7 +83,10 @@
           ></textarea>
         </div>
       </fieldset>
+      <button>Submit</button>
     </form>
+    <!-- FORM END -->
+
     <script src="index.js" async defer></script>
   </body>
 </html>
