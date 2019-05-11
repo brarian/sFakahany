@@ -1,24 +1,24 @@
 html {
   font-family: 'Hind Siliguri', sans-serif;
 }
-form {
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
+.container{
+
+}
+fieldset{
+  max-width: 55%;;
+  margin-left: auto; 
+  margin-right: auto; 
   border: none;
 }
-form input {
-  margin: 1.2em;
-}
+
 .menu_image {
   height: 2em;
   width: 3em;
 }
 
 input {
-  width: 100%;
+  width: -webkit-fill-available;  
   padding: 12px;
-  margin: 6px 0 4px;
   border: 1px solid grey;
   background: #fafafa;
   font-family: sans-serif;
@@ -29,14 +29,21 @@ input {
 }
 
 div {
-  margin: 0.5em;
+  margin: 1em;
+  padding-bottom: .5em;
 }
 
 textarea#message {
   display: block;
-  width: 25em;
+  width: -webkit-fill-available;  
   height: 6em;
   border: 1px solid gray;
+}
+.submit{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 414px) {
@@ -50,4 +57,9 @@ textarea#message {
     height: 1.2em;
     width: 1.5em;
   }
+  fieldset {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

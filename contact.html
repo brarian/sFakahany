@@ -13,7 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="contact.css" />
-    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Hind+Siliguri"
+      rel="stylesheet"
+    />
     <!-- NODEMAILER tutorial  -->
     <!-- https://tylerkrys.ca/blog/adding-nodemailer-email-contact-form-node-express-app -->
   </head>
@@ -43,48 +46,51 @@
     <!-- NAV BAR END -->
 
     <!-- FORM START -->
-
-    <form action="/contact" class="contact_form">
-      <fieldset>
-        <div>
-          <label for="name"> Name </label>
-          <input
-            type="text"
-            placeholder="name"
-            id="name"
-            aria-required="true"
-          />
+    <div class="container">
+      <form action="/contact" class="contact_form">
+        <fieldset>
+          <div>
+            <label for="name"> Name </label>
+            <input
+              type="text"
+              placeholder="name"
+              id="name"
+              aria-required="true"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="text"
+              placeholder="email"
+              id="email"
+              aria-required="true"
+            />
+          </div>
+          <div>
+            <label for="email">Subject</label>
+            <input
+              type="text"
+              placeholder="subject"
+              id="subject"
+              aria-required="true"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              type="textarea"
+              placeholder="message"
+              id="message"
+              aria-required="true"
+            ></textarea>
+          </div>
+        </fieldset>
+        <div class="submit">
+          <input type="submit" value="submit" />
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input
-            type="text"
-            placeholder="email"
-            id="email"
-            aria-required="true"
-          />
-        </div>
-        <div>
-          <label for="email">Subject</label>
-          <input
-            type="text"
-            placeholder="subject"
-            id="subject"
-            aria-required="true"
-          />
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea
-            type="textarea"
-            placeholder="message"
-            id="message"
-            aria-required="true"
-          ></textarea>
-        </div>
-      </fieldset>
-      <button>Submit</button>
-    </form>
+      </form>
+    </div>
     <!-- FORM END -->
 
     <script src="index.js" async defer></script>
