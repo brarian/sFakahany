@@ -3,7 +3,7 @@
 This is the landing page for writer and freelancer Samantah Fakahany. 
 
 ## Summary 
-This website displays the range of Samantah's work and allows client's to contact her directly. 
+This website displays the range of Samantah's work and allows clients to contact her directly. 
 
 ## Screenshots 
 ![landingpage](landing.png)
