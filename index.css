@@ -9,10 +9,25 @@
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
   font-size: 2em;
   font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.logo:before,
+.logo:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    color: #f8ebe3;
+}
+
+.logo:after {
+    margin: 0 0 0 20px;
 }
 .color {
   background-color: #f8ebe3;
@@ -25,6 +40,9 @@ h1 {
   justify-content: center;
   line-height: 1em;
   font-weight: bolder;
+  margin-bottom: 15px;
+  background-color:#f8ebe3;
+  padding: 1em;
 }
 
 .title_name {
@@ -45,6 +63,14 @@ a.nav_button {
   justify-content: center;
   align-items: center;
 }
+
+a.nav_button:hover {
+  border: 1px solid white;
+  background-color: black; 
+  color: white;
+}
+
+
 a,
 a.link,
 a:visited,
@@ -119,4 +145,12 @@ a:active {
     margin: 0.5em;
     font-size: 12px;
   }
+  .sidenav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
 }
