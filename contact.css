@@ -11,10 +11,6 @@ fieldset{
   border: none;
 }
 
-.menu_image {
-  height: 2em;
-  width: 3em;
-}
 
 input {
   width: -webkit-fill-available;  
@@ -29,7 +25,6 @@ input {
 }
 
 div {
-  margin: 1em;
   padding-bottom: .5em;
 }
 
