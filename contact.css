@@ -58,8 +58,16 @@ textarea#message {
     width: 1.5em;
   }
   fieldset {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: -1em;
+}
+
+.submit {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 }

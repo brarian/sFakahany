@@ -17,6 +17,10 @@
       href="https://fonts.googleapis.com/css?family=Hind+Siliguri"
       rel="stylesheet"
     />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <!-- NODEMAILER tutorial  -->
     <!-- https://tylerkrys.ca/blog/adding-nodemailer-email-contact-form-node-express-app -->
   </head>
@@ -35,7 +39,7 @@
     <![endif]-->
     <!-- NAV BAR START  -->
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
         >&times;</a
       >
       <a href="#">See My Work</a>
@@ -44,10 +48,10 @@
     </div>
 
     <!-- NAV BAR END -->
-
+    <!-- //upload on github pages and use form spree -->
     <!-- FORM START -->
     <div class="container">
-      <form action="/contact" class="contact_form">
+      <form action="mail.php" method="POST" class="contact_form">
         <fieldset>
           <div>
             <label for="name"> Name </label>
@@ -55,25 +59,28 @@
               type="text"
               placeholder="name"
               id="name"
-              aria-required="true"
+              name="v_name"
+              required
             />
           </div>
           <div>
             <label for="email">Email</label>
             <input
-              type="text"
+              type="email"
               placeholder="email"
               id="email"
-              aria-required="true"
+              name="v_email"
+              required
             />
           </div>
           <div>
-            <label for="email">Subject</label>
+            <label for="subject">Subject</label>
             <input
               type="text"
               placeholder="subject"
               id="subject"
-              aria-required="true"
+              name="v_subject"
+              required
             />
           </div>
           <div>
@@ -82,7 +89,8 @@
               type="textarea"
               placeholder="message"
               id="message"
-              aria-required="true"
+              name="v_message"
+              required
             ></textarea>
           </div>
         </fieldset>
@@ -94,5 +102,6 @@
     <!-- FORM END -->
 
     <script src="index.js" async defer></script>
+    
   </body>
 </html>
