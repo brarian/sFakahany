@@ -11,11 +11,12 @@ image{
 .text{
   margin: 1em;
   line-height: 1.6em;
+  max-width: 40em;
 }
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   html,
   body {
     overflow-x: hidden;
