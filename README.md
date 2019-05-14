@@ -8,7 +8,7 @@ This website displays the range of Samantah's work and allows clients to contact
 ## Screenshots 
 ![landingpage](landing.png)
 ![contactme](contactme.png)
-
+![about](sf_portfolio.png)
 ##  Technology 
 ### Frontend
 - HTML
