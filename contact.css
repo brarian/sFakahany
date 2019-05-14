@@ -2,7 +2,7 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 .container{
-
+  
 }
 fieldset{
   max-width: 55%;;
@@ -46,8 +46,7 @@ textarea#message {
   body {
     overflow-x: hidden;
   }
-  body {
-  }
+
   .menu_image {
     height: 1.2em;
     width: 1.5em;

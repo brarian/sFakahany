@@ -65,7 +65,7 @@ a:active {
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #f9f8f6; /* Black*/
+  background-color: #f8ebe3; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -73,6 +73,9 @@ a:active {
 
 /* The navigation menu links */
 .sidenav a {
+
+  font-family: 'Roboto Slab', serif;
+
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 1.2em;
@@ -87,6 +90,29 @@ a:active {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 24px;
+  right: 4px;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 414px) {
+  .sidenav a {
+
+    font-family: 'Roboto Slab', serif;
+  
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: .6em;
+    color: black;
+    display: block;
+    /* transition: 0.3s; */
+  }
+  
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    font-size: 20px;
+  }
 }
