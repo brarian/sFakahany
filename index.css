@@ -1,24 +1,22 @@
-html{
-  font-family: 'Roboto Slab', serif;
-
+html {
+  font-family: "Roboto Slab", serif;
+  background-color: #f8ebe3;
 }
 
-div.desc{
+div.desc {
   display: flex;
-    justify-content: center;
-    margin-left: 1em;
-    font-size: 0.6em;
-    margin-top: 1em;
+  justify-content: center;
+  margin-left: 1em;
+  font-size: 60px;
+  margin-top: 0.5;
 }
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 100px;
   justify-content: center;
   line-height: 1em;
-  font-weight: bolder;
+  font-weight: 500;
   margin-bottom: 15px;
-  background-color:#f8ebe3;
-  padding: 1em;
 }
 
 .title_name {
@@ -28,7 +26,6 @@ main {
   display: flex;
   justify-content: center;
 }
-
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -68,5 +65,5 @@ main {
     color: black;
     display: block;
     transition: 0.3s;
-}
+  }
 }

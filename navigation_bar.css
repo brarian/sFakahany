@@ -23,7 +23,7 @@
   border-top: 1px solid;
   margin: 0 20px 0 0;
   flex: 1 0 20px;
-  color: #f8ebe3;
+  color: black;
 }
 
 .logo:after {
@@ -73,8 +73,7 @@ a:active {
 
 /* The navigation menu links */
 .sidenav a {
-
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -94,20 +93,17 @@ a:active {
   font-size: 20px;
 }
 
-
 @media only screen and (max-width: 414px) {
   .sidenav a {
+    font-family: "Roboto Slab", serif;
 
-    font-family: 'Roboto Slab', serif;
-  
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: .6em;
+    font-size: 0.6em;
     color: black;
     display: block;
     /* transition: 0.3s; */
   }
-  
 
   .sidenav .closebtn {
     position: absolute;
