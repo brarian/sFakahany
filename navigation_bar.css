@@ -16,6 +16,9 @@
   align-items: center;
   text-align: center;
 }
+.logo a {
+  text-decoration: none;
+}
 
 .logo:before,
 .logo:after {
