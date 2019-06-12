@@ -1,20 +1,16 @@
-
-
-.about_me{
-  font-family: 'Roboto Slab', serif;
+.about_me {
+  font-family: "Roboto Slab", serif;
   display: flex;
   margin: 1em;
 }
-image{
+image {
   padding-right: 1em;
 }
-.text{
+.text {
   margin: 1em;
   line-height: 1.6em;
   max-width: 40em;
 }
-
-
 
 @media only screen and (max-width: 950px) {
   html,
@@ -22,25 +18,25 @@ image{
     overflow-x: hidden;
   }
 
-  .about_me{
-    font-family: 'Roboto Slab', serif;
+  .about_me {
+    font-family: "Roboto Slab", serif;
     display: flex;
     flex-direction: column;
-    margin: 1em;
-    justify-content: center;
   }
   .image {
     text-align: center;
   }
-  .image img{
-    width: 400px;
+  .image img {
+    width: 300px;
     height: 400px;
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
   }
-  .text{
+  .text {
     margin: 0;
+    padding-left: 3em;
+    text-align: center;
   }
 }
 
@@ -50,21 +46,22 @@ image{
     overflow-x: hidden;
   }
 
-  .about_me{
-    font-family: 'Roboto Slab', serif;
+  .about_me {
+    font-family: "Roboto Slab", serif;
     display: flex;
     flex-direction: column;
     margin: 1em;
     justify-content: center;
+    align-content: center;
   }
-  .image img{
-    width: 300px;
+  .image img {
+    width: 200px;
     height: 300px;
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
   }
-  .text{
+  .text {
     margin: 0;
   }
 }
