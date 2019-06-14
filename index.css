@@ -11,19 +11,31 @@ div.desc {
 }
 h1 {
   font-size: 80px;
-  line-height: 1em;
+  line-height: 17px;
   margin-bottom: 15px;
   color: #df2532;
   text-align: right;
-  margin-right: 25vw;
+  margin-left: 45vw;
+  display: inline;
+  margin-left: 40vw;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 40px;
+  margin-left: 46vw;
+}
+ul li {
+  padding-left: 1em;
+}
 .title_name {
   margin-top: 7em;
 }
 main {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  margin-left: 47vw;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
