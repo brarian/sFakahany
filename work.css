@@ -1,12 +1,15 @@
-aside{
+html {
+  font-family: "Crimson Text", serif;
+}
+aside {
   font-style: italic;
   margin: 1em;
 }
 
-.song{
+.song {
   text-align: center;
 }
 
-p{
+p {
   margin: 1em;
 }

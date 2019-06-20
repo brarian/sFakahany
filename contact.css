@@ -1,19 +1,18 @@
 html {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Crimson Text", serif;
 }
-.container{
-  
+.container {
 }
-fieldset{
-  max-width: 55%;;
-  margin-left: auto; 
-  margin-right: auto; 
+fieldset {
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
 }
 
-
-input,button{
-  width: -webkit-fill-available;  
+input,
+button {
+  width: -webkit-fill-available;
   padding: 12px;
   border: 1px solid grey;
   background: #fafafa;
@@ -25,23 +24,23 @@ input,button{
 }
 
 div {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 textarea#message {
   display: block;
-  width: -webkit-fill-available;  
+  width: -webkit-fill-available;
   height: 6em;
   border: 1px solid gray;
 }
-.submit{
+.submit {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
   margin-top: 1em;
 }
-.last{
+.last {
   display: flex;
   justify-content: center;
 }
@@ -60,12 +59,12 @@ textarea#message {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -1em;
-}
+  }
 
-.submit {
+  .submit {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-}
+  }
 }
