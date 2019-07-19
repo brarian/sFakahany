@@ -1,9 +1,9 @@
 html {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   background-color: #f5f5f5;
 }
 h1 {
-  font-size: 6em;
+  font-size: 110px;
   margin-bottom: 20px;
   margin-top: 12%;
   display: inline-block;
@@ -22,18 +22,87 @@ ul {
 }
 .home_links ul li {
   display: inline;
-  font-size: 2.5em;
-  padding-left: 20px;
-  color: #fcd580;
+  font-size: 30px;
+  padding-left: 40px;
+  color: black;
+  letter-spacing: 0.1em;
 }
 .main {
   margin-right: 15%;
 }
 
 .home_links ul li a {
-  color: #fcd580;
+  color: black;
 }
-/* .title_name {
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 12%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    color: #df2532;
+    letter-spacing: 2px;
+  }
+
+  .home_links ul li {
+    display: inline;
+    font-size: 26px;
+    padding-left: 40px;
+    color: black;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 12%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    color: #df2532;
+    letter-spacing: 2px;
+  }
+
+  .home_links {
+    display: inline;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 0.1em;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 21%;
+    display: inline-block;
+    text-align: right;
+    color: #df2532;
+    letter-spacing: 2px;
+  }
+  .home_links ul li {
+    font-size: 16px;
+    padding-left: 40px;
+    margin-bottom: 25px;
+    color: black;
+    letter-spacing: 0.1em;
+    text-align: right;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+/* .title_na}me {
   margin-left: 40vw;
   margin-top: 20vh;
 } */
@@ -75,21 +144,7 @@ main a.nav_button {
 } */
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-/* @media only screen and (max-width: 1040px) {
-  .title_name {
-    margin-left: 20vw;
-    margin-top: 10vh;
-  }
-/* } 
-/* @media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-    font-family: "Crimson Text", serif;
-  }
-}
+/* 
 @media only screen and (max-width: 414px) {
   .color {
     background-color: #f5f5f5;
