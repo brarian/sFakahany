@@ -1,5 +1,5 @@
 .about_me {
-  font-family: "Crimson Text", serif;
+  font-family: 'Literata', serif;
   display: flex;
   margin-left: 6em;
   margin-right: 6em;
@@ -21,7 +21,7 @@ image {
   }
 
   .about_me {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
     display: flex;
     flex-direction: column;
   }
@@ -48,7 +48,7 @@ image {
   }
 
   .about_me {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
     display: flex;
     flex-direction: column;
     margin: 1em;

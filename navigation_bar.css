@@ -23,7 +23,7 @@
 
 .logo:before,
 .logo:after {
-  content: "";
+  content: '';
   border-top: 1px solid;
   margin: 0 20px 0 0;
   flex: 1 0 20px;
@@ -77,7 +77,7 @@ a:active {
 
 /* The navigation menu links */
 .sidenav a {
-  font-family: "Crimson Text", serif;
+  font-family: 'Literata', serif;
 
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -99,7 +99,7 @@ a:active {
 
 @media only screen and (max-width: 414px) {
   .sidenav a {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
 
     padding: 8px 8px 8px 32px;
     text-decoration: none;
