@@ -11,14 +11,14 @@
 .logo {
   display: flex;
   justify-content: center;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bolder;
   align-items: center;
   text-align: center;
 }
 .logo a {
   text-decoration: none;
-  color: #df2532;
+  color: #06321f;
 }
 
 .logo:before,
@@ -33,7 +33,9 @@
 .logo:after {
   margin: 0 0 0 20px;
 }
-
+i {
+  color: #06321f;
+}
 a.nav_button {
   background-color: white;
   border: 1px solid black;
